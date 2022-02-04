@@ -83,6 +83,7 @@ h2 {
   margin: 5px;
   
   border: 1px solid #ccc;
+  cursor: pointer;  /* Change cursor to indicate that it's clickable */
 }
 
 /* FILTER PORTFOLIO ITEMS */
