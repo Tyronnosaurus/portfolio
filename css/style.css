@@ -39,8 +39,8 @@ h2 {
 
 #btnContainer .btn {
   background-color: white;
-  margin:4px;
-  padding: 5px 8px;
+  margin: 3px;
+  padding: 3px 4px;
 }
 
 /* Add a grey background color on mouse-over */
@@ -109,7 +109,7 @@ h2 {
   border: 1px solid #777;
 }
 
-.pf-item .title {
+.pf-item h4 {
   padding: 15px;
   margin: 0px;
   font-size: 20px;
