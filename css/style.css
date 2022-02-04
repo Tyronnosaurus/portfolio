@@ -57,6 +57,12 @@ h2 {
   color: white;
 }
 
+#btnContainer .separator{
+  height: 25px;
+  border: 1px solid #777;
+  margin: 8px;
+}
+
 
 
 /* AUTO-ARRANGE PORTFOLIO ITEMS */
