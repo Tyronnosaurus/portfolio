@@ -1,7 +1,7 @@
-filterSelection("all") // Execute the function and show all columns
+filterSelection("all") // Execute the function and show all items
 function filterSelection(c) {
   var x, i;
-  x = document.getElementsByClassName("column");
+  x = document.getElementsByClassName("pf-item");
   if (c == "all") c = "";
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
   for (i = 0; i < x.length; i++) {
@@ -36,7 +36,7 @@ function w3RemoveClass(element, name) {
 }
 
 // Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
+var btnContainer = document.getElementById("btnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){

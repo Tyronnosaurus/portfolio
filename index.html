@@ -10,97 +10,88 @@
 
     <body>
 
-        <h2>PORTFOLIO</h2>
+        <div id="portfolio">
 
-        <!-- Portfolio Gallery Buttons -->
-        <div id="myBtnContainer">
-            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-            <button class="btn" onclick="filterSelection('nature')"> Nature</button>
-            <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-            <button class="btn" onclick="filterSelection('people')"> People</button>
-        </div>
+            <h2>PORTFOLIO</h2>
+
+            <!-- Portfolio Gallery Buttons -->
+            <div id="btnContainer">
+                <button class="btn active" onclick="filterSelection('all')"   > Show all</button>
+                <button class="btn"        onclick="filterSelection('Professional')"> Professional</button>
+                <button class="btn"        onclick="filterSelection('Academic')"  > Academic</button>
+                <button class="btn"        onclick="filterSelection('Hobby')"> Hobby</button>
+            </div>
 
 
-        <!-- Portfolio Gallery Grid -->
-        <div class="container">
-            
-            <div class="column nature">
-                <div class="content">
+            <!-- Portfolio Gallery Grid -->
+            <div class="pf-grid">
+                
+                <div class="pf-item Professional">
                     <img src="img/mountains.jpg" alt="Mountains">
                     <h4>Mountains</h4>
                     <p>Lorem ipsum dolor..</p>
                 </div>
-            </div>
-            <div class="column nature">
-                <div class="content">
+
+                <div class="pf-item Professional">
                     <img src="img/mountains.jpg" alt="Lights">
                     <h4>Lights</h4>
                     <p>Lorem ipsum dolor..</p>
                 </div>
-            </div>
-            <div class="column nature">
-                <div class="content">
-                    <img src="img/mountains.jpg" alt="Nature">
+
+                <div class="pf-item Professional">
+                    <img src="img/mountains.jpg" alt="Forest">
                     <h4>Forest</h4>
                     <p>Lorem ipsum dolor..</p>
                 </div>
-            </div>
-            <div class="column nature">
-                <div class="content">
+
+                <div class="pf-item Professional">
                     <img src="img/mountains.jpg" alt="River">
                     <h4>River</h4>
                     <p>Lorem ipsum dolor..</p>
                 </div>
-            </div>
 
-            <div class="column cars">
-                <div class="content">
+                <div class="pf-item Academic">
                     <img src="img/mountains.jpg" alt="Car">
                     <h4>Retro</h4>
                     <p>Lorem ipsum dolor..</p>
                 </div>
-            </div>
-            <div class="column cars">
-                <div class="content">
+
+                <div class="pf-item Academic">
                     <img src="img/mountains.jpg" alt="Car">
                     <h4>Fast</h4>
                     <p>Lorem ipsum dolor..</p>
                 </div>
-            </div>
-            <div class="column cars">
-                <div class="content">
+
+                <div class="pf-item Academic">
                     <img src="img/mountains.jpg" alt="Car">
                     <h4>Classic</h4>
                     <p>Lorem ipsum dolor..</p>
                 </div>
-            </div>
 
-            <div class="column people">
-                <div class="content">
-                    <img src="img/mountains.jpg" alt="People">
+                <div class="pf-item Hobby">
+                    <img src="img/mountains.jpg" alt="Hobby">
                     <h4>Girl</h4>
                     <p>Lorem ipsum dolor..</p>
                 </div>
-            </div>
-            <div class="column people">
-                <div class="content">
-                    <img src="img/mountains.jpg" alt="People">
+
+                <div class="pf-item Hobby">
+                    <img src="img/mountains.jpg" alt="Hobby">
                     <h4>Man</h4>
                     <p>Lorem ipsum dolor..</p>
                 </div>
-            </div>
-            <div class="column people">
-                <div class="content">
-                    <img src="img/mountains.jpg" alt="People">
+
+                <div class="pf-item Hobby Professional">
+                    <img src="img/mountains.jpg" alt="Hobby">
                     <h4>Woman</h4>
                     <p>Lorem ipsum dolor..</p>
                 </div>
+
             </div>
 
+            <script src="js/filter.js" type="text/javascript"></script>	
+        
         </div>
-
-        <script src="js/filter.js" type="text/javascript"></script>	
-
+    
     </body>
 
 </html>

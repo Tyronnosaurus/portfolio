@@ -6,18 +6,22 @@ body {
   background-color: #f1f1f1;
   padding: 20px;
   font-family: Arial;
-}
 
-.main {
-  max-width: 1000px;
+  max-width: 1500px;
   margin: auto; /* Center website */
 }
 
+
+
+#portfolio {
+  margin: auto; /* Center */
+}
+
+/* PORTFOLIO HEADER */
 h1 {
   font-size: 50px;
   word-break: break-all;
 }
-
 
 
 /* PORTFOLIO BUTTONS */
@@ -44,21 +48,25 @@ h1 {
 
 /* AUTO-ARRANGE PORTFOLIO ITEMS */
 /* Fit as many items in a row as possible */
-.container{
+.pf-grid{
   display:flex;
-  flex-wrap:wrap;
+  flex-wrap:wrap; /* Items not fitting in a row get wrapped to the next row */
+
+  align-items: center;      /* Center items */
+  justify-content: center;
 }
 
-.container > div {
-  width: 300px;
+.pf-item {
+  width: 250px;
   margin:8px;
   
   border: 2px solid black;
+  border-radius: 15px;
 }
 
 /* FILTER PORTFOLIO ITEMS */
-.column {
-  display: none; /* Hide columns by default */
+.pf-item {
+  display: none; /* Hide items by default */
 }
 
 .show {
@@ -66,15 +74,13 @@ h1 {
 }
 
 
-
-
-/* PORFOLIO ITEM */
-.content {
+/* PORTFOLIO ITEM */
+.pf-item {
   background-color: white;
   padding: 10px;
 }
 
-.content img {
+.pf-item img {
   width: 100%;
 }
 
