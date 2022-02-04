@@ -71,10 +71,9 @@ h2 {
 
 .pf-item {
   width: 250px;
-  margin:8px;
+  margin: 5px;
   
-  border: 2px solid black;
-  border-radius: 15px;
+  border: 1px solid #ccc;
 }
 
 /* FILTER PORTFOLIO ITEMS */
@@ -90,12 +89,17 @@ h2 {
 /* PORTFOLIO ITEM */
 .pf-item {
   background-color: white;
-  padding: 10px;
 }
 
 .pf-item img {
   width: 100%;
 }
 
+.pf-item:hover {
+  border: 1px solid #777;
+}
 
-
+.pf-item .title {
+  padding: 15px;
+  margin: 0px;
+}
