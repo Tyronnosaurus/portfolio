@@ -37,30 +37,27 @@ h2 {
   justify-content: center;
 }
 
-.btn {
-  border: none;
-  outline: none;
-  padding: 8px 12px;
+#btnContainer .btn {
   background-color: white;
-  cursor: pointer;
   margin:4px;
-}
-
-/* Prevent blue outline added by Bootstrap by default*/
-.btn:focus,.btn:active {
-  outline: none !important;
-  box-shadow: none;
+  padding: 5px 8px;
 }
 
 /* Add a grey background color on mouse-over */
-.btn:hover {
+#btnContainer .btn:hover {
   background-color: #ddd;
 }
 
 /* Add a dark background color to the active button */
-.btn.active {
+#btnContainer .btn.active {
   background-color: #666;
   color: white;
+}
+
+/* Prevent blue outline added by Bootstrap by default*/
+.btn:focus, .btn:active {
+  outline: none;
+  box-shadow: none;
 }
 
 #btnContainer .separator{
