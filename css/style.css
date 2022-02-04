@@ -46,6 +46,12 @@ h2 {
   margin:4px;
 }
 
+/* Prevent blue outline added by Bootstrap by default*/
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
 /* Add a grey background color on mouse-over */
 .btn:hover {
   background-color: #ddd;
@@ -108,4 +114,5 @@ h2 {
 .pf-item .title {
   padding: 15px;
   margin: 0px;
+  font-size: 20px;
 }
