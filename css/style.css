@@ -8,10 +8,9 @@ body {
   font-family: Arial;
 }
 
-/* Center website */
 .main {
   max-width: 1000px;
-  margin: auto;
+  margin: auto; /* Center website */
 }
 
 h1 {
@@ -19,42 +18,9 @@ h1 {
   word-break: break-all;
 }
 
-.row {
-  margin: 8px -16px;
-}
 
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-  padding: 8px;
-}
 
-/* Create a 4 equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-  display: none; /* Hide columns by default */
-}
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
-
-/* Style the buttons */
+/* PORTFOLIO BUTTONS */
 .btn {
   border: none;
   outline: none;
@@ -71,22 +37,46 @@ h1 {
 /* Add a dark background color to the active button */
 .btn.active {
   background-color: #666;
-    color: white;
+  color: white;
+}
+
+
+
+/* AUTO-ARRANGE PORTFOLIO ITEMS */
+/* Fit as many items in a row as possible */
+.container{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.container > div {
+  width: 300px;
+  margin:8px;
+  
+  border: 2px solid black;
+}
+
+/* FILTER PORTFOLIO ITEMS */
+.column {
+  display: none; /* Hide columns by default */
+}
+
+.show {
+  display: block; /* The "show" class is added to the filtered elements */
 }
 
 
 
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
+/* PORFOLIO ITEM */
+.content {
+  background-color: white;
+  padding: 10px;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+.content img {
+  width: 100%;
 }
+
+
+
