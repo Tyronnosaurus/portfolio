@@ -18,19 +18,32 @@ body {
 }
 
 /* PORTFOLIO HEADER */
-h1 {
-  font-size: 50px;
-  word-break: break-all;
+h2 {
+  font-size: 30px;
+
+  /* Center */
+  width: 100%;
+  text-align: center;
+  margin: 20 auto;
 }
 
 
 /* PORTFOLIO BUTTONS */
+#btnContainer {
+  display:flex;
+  flex-wrap:wrap; /* Items not fitting in a row get wrapped to the next row */
+
+  align-items: center;      /* Center items */
+  justify-content: center;
+}
+
 .btn {
   border: none;
   outline: none;
-  padding: 12px 16px;
+  padding: 8px 12px;
   background-color: white;
   cursor: pointer;
+  margin:4px;
 }
 
 /* Add a grey background color on mouse-over */
@@ -48,7 +61,7 @@ h1 {
 
 /* AUTO-ARRANGE PORTFOLIO ITEMS */
 /* Fit as many items in a row as possible */
-.pf-grid{
+#pf-grid{
   display:flex;
   flex-wrap:wrap; /* Items not fitting in a row get wrapped to the next row */
 
