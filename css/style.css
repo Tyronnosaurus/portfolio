@@ -115,12 +115,17 @@ h2 {
 .pf-item h4 {
   height: 70px;
   width: 100%;
-  display: flex;
-  align-items: center;
-
   padding: 5px 10px 5px 10px;
   margin: 0px;
   font-size: 20px;
+
+  /* Center text vertically */
+  display: flex;
+  align-items: center;
+
+  /*Center text horizontally */
+  text-align:center;
+  justify-content: center;
 }
 
 
@@ -142,7 +147,11 @@ h2 {
   object-fit: contain;
 }
 
-.list-inline-item img{
+.carousel-indicators {
+  margin-bottom: 0px;
+}
+
+.carousel-indicators img {
   width: 50px;
   height: 50px;
   object-fit: cover;
