@@ -34,9 +34,9 @@
                     <h4>Remote controlled ball launcher</h4>
                 </div>
 
-                <div class="pf-item Professional">
-                    <img src="img/mountains.jpg" alt="Project 2">
-                    <h4>Project 2</h4>
+                <div class="pf-item Professional"data-bs-toggle="modal" data-bs-target="#Modal2">
+                    <img src="img\pf\S2G\S2G.png" alt="Project 2">
+                    <h4>S2G Ultrasonic molding machine</h4>
                 </div>
 
                 <div class="pf-item Professional">
@@ -83,8 +83,8 @@
 
 
 
-            <!-- Modal Item 1-->
-            <div class="modal fade bd-example-modal-lg" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+            <!-- Modal Item-->
+            <div id="Modal1" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
                 <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -129,18 +129,73 @@
                                     </li>
                                 </ul>
 
-                                <!-- Normal indicators --> 
-                                <!--<ol class="carousel-indicators">
-                                  <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
-                                  <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
-                                  <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
-                                </ol> -->
                             </div>
 
                             <!-- Description -->
-                            <p>This is a design for a semiautomatic ball launcher that can be attached to a remotely controlled car I had previously developed.</p>
-                            <p>The rack and pinion mechanism with missing teeth, typical of airsoft gearboxes, retracts the platform and compresses the springs. When the last teeth is reached, the compression is released and the ball propelled.
-                                The microswitch stops the motor after a revolution is completed.</p>
+                            <div class="description">
+                                <p>This is a design for a semiautomatic ball launcher that can be attached to a remotely controlled car I had previously developed.</p>
+                                <p>The rack and pinion mechanism with missing teeth, typical of airsoft gearboxes, retracts the platform and compresses the springs. When the last tooth is reached, the compression is released and the ball propelled. The microswitch stops the motor after a revolution is completed.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <!-- Modal Item-->
+            <div id="Modal2" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">S2G Ultrasonic molding machine</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+
+                            <!-- Carousel -->
+                            <div id="Carousel2" class="carousel slide" data-bs-interval="false">
+
+                                <!-- Slides -->
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img\pf\S2G\S2G.png" alt="First slide">
+                                  </div>
+                                </div>
+
+                                <!-- Prev/Next buttons -->
+                                <a class="carousel-control-prev" href="#Carousel2" role="button" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#Carousel2" role="button" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon"></span>
+                                </a>
+
+                                <!-- Thumbnail indicators -->
+                                <ul class="carousel-indicators list-inline mx-auto border px-2">
+                                    <li class="list-inline-item active">
+                                        <a id="carousel-selector-0" data-bs-slide-to="0" data-bs-target="#Carousel2" class="selected">
+                                            <img src="img\pf\S2G\S2G.png" class="img-fluid">
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <!-- Description -->
+                            <div class="description">
+                                <p>The S2G machine is a redesign of the S1G for plastic pieces that require higher pressures.</p>
+                                <p>Just like the S1G, the S2G had unoptimized code. Rather than rewriting it, I adapted the code I had already rewritten from the S1G. There were a few problems that I had to solve, though:</p> 
+
+                                <ul>
+                                    <li>The axes had mechanical differences which meant the homing and anti-collision systems had to be rewritten.</li>   
+                                    <li>The mold axis incorporated a toggle mechanism, which required a CAM control in order to have a lineal mold movement.</li>
+                                    <li>New external sensors meant I had to write a new data adquisition program. It plotted internal pressure and temperature for the last injection cycles (among other data) and proved very useful to increase repetibility.</li> 
+                                    <li>Many other small changes.</li>
+                                </ul>
+                          </div>
                         
                         </div>
                     </div>
