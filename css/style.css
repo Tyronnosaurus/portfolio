@@ -119,6 +119,18 @@ h2 {
 
 
 /* CAROUSEL */
+.carousel{
+  background-color: black;
+}
+
+.carousel-item img{
+  width: 500px;
+  height: 400px;
+  object-fit: contain
+}
+
 .list-inline-item img{
+  width: 50px;
   height: 50px;
+  object-fit: cover;
 }
