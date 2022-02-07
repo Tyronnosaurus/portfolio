@@ -87,11 +87,11 @@ h2 {
 }
 
 /* FILTER PORTFOLIO ITEMS */
-.pf-item {
+#pf-grid .pf-item {
   display: none; /* Hide items by default */
 }
 
-.show {
+#pf-grid .show {
   display: block; /* The "show" class is added to the filtered elements */
 }
 
