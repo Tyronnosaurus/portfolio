@@ -33,7 +33,11 @@
                 <button class="btn"        onclick="filterSelection('Academic')"    >Academic</button>
                 <button class="btn"        onclick="filterSelection('Hobby')"       >Hobby</button>
                 <div class="separator"></div>
+                <button class="btn"        onclick="filterSelection('Cpp')"         >C++</button>
+                <button class="btn"        onclick="filterSelection('WebDev')"      >Web Development</button>
+                <button class="btn"        onclick="filterSelection('Wordpress')"   >Wordpress</button>
                 <button class="btn"        onclick="filterSelection('SolidWorks')"  >SolidWorks</button>
+                <button class="btn"        onclick="filterSelection('PLC')"         >PLC</button>
             </div>
 
 
@@ -41,52 +45,52 @@
             <div id="pf-grid">
                 
                 <div class="pf-item Hobby SolidWorks" data-bs-toggle="modal" data-bs-target="#Modal1">
-                    <img src="img\pf\Ball launcher\balllauncher.png" alt="Project 1">
+                    <img src="img\pf\Ball launcher\balllauncher.png" alt="Project picture">
                     <h4>Remote controlled ball launcher</h4>
                 </div>
 
-                <div class="pf-item Professional" data-bs-toggle="modal" data-bs-target="#Modal2">
-                    <img src="img\pf\S2G\S2G.png" alt="Project 2">
+                <div class="pf-item Professional PLC ST" data-bs-toggle="modal" data-bs-target="#Modal2">
+                    <img src="img\pf\S2G\S2G.png" alt="Project picture">
                     <h4>S2G Ultrasonic molding machine</h4>
                 </div>
 
-                <div class="pf-item Professional">
-                    <img src="img/mountains.jpg" alt="Project 3">
-                    <h4>Project 3</h4>
+                <div class="pf-item Professional" data-bs-toggle="modal" data-bs-target="#Modal3">
+                    <img src="img\pf\Force Control\forceloop.png" alt="Project picture">
+                    <h4>Closed loop force control injection system</h4>
                 </div>
 
-                <div class="pf-item Professional">
-                    <img src="img/mountains.jpg" alt="Project 4">
-                    <h4>Project 4</h4>
+                <div class="pf-item Professional PLC ST" data-bs-toggle="modal" data-bs-target="#Modal4">
+                    <img src="img\pf\S1G\sonoruss1g-1.jpg" alt="Project picture">
+                    <h4>S1G Ultrasonic molding machine</h4>
                 </div>
 
-                <div class="pf-item Academic">
-                    <img src="img/mountains.jpg" alt="Project 5">
-                    <h4>Project 5</h4>
+                <div class="pf-item Hobby WebDev Wordpress" data-bs-toggle="modal" data-bs-target="#Modal5">
+                    <img src="img\pf\AirsoftDIY\airsoftdiy_scrnsht.png" alt="Project picture">
+                    <h4>Website for Airsoft DIY projects</h4>
                 </div>
 
-                <div class="pf-item Academic">
-                    <img src="img/mountains.jpg" alt="Project 6">
-                    <h4>Project 6</h4>
+                <div class="pf-item Hobby Cpp" data-bs-toggle="modal" data-bs-target="#Modal6">
+                    <img src="img\pf\Capacitance meter\Capacitance meter.jpg" alt="Project picture">
+                    <h4>Capacitance meter</h4>
                 </div>
 
-                <div class="pf-item Academic">
-                    <img src="img/mountains.jpg" alt="Project 7">
-                    <h4>Project 7</h4>
+                <div class="pf-item Hobby Cpp Arduino" data-bs-toggle="modal" data-bs-target="#Modal7">
+                    <img src="img\pf\Incorporation protocol\track.jpg" alt="Project picture">
+                    <h4>Seamless highway incorporation protocol for self-driving cars</h4>
+                </div>
+
+                <div class="pf-item Academic" data-bs-toggle="modal" data-bs-target="#Modal8">
+                    <img src="img\pf\Claymore production line\production line.png" alt="Project picture">
+                    <h4>Semi-automated assembly line</h4>
                 </div>
 
                 <div class="pf-item Hobby">
-                    <img src="img/mountains.jpg" alt="Project 8">
-                    <h4>Project 8</h4>
-                </div>
-
-                <div class="pf-item Hobby">
-                    <img src="img/mountains.jpg" alt="Project 9">
+                    <img src="img/mountains.jpg" alt="Project picture">
                     <h4>Project 9</h4>
                 </div>
 
                 <div class="pf-item Hobby Professional">
-                    <img src="img/mountains.jpg" alt="Project 10">
+                    <img src="img/mountains.jpg" alt="Project picture">
                     <h4>Project 10</h4>
                 </div>
 
@@ -214,8 +218,380 @@
             </div>
 
 
+
+
+            <!-- Modal Item-->
+            <div id="Modal3" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Closed loop force control injection system</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+
+                            <!-- Carousel -->
+                            <div id="Carousel3" class="carousel slide" data-bs-interval="false">
+
+                                <!-- Slides --> 
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img\pf\Force Control\forcesensor.png" alt="First slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src="img\pf\Force Control\forceloop.png" alt="Second slide">
+                                  </div>
+                                </div>
+
+                                <!-- Prev/Next buttons --> 
+                                <a class="carousel-control-prev" href="#Carousel3" role="button" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#Carousel3" role="button" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon"></span>
+                                </a>
+
+                                <!-- Thumbnail indicators --> 
+                                <ul class="carousel-indicators list-inline mx-auto border px-2">
+                                    <li class="list-inline-item active">
+                                        <a id="carousel-selector-0" data-bs-slide-to="0" data-bs-target="#Carousel3" class="selected">
+                                            <img src="img\pf\Force Control\forcesensor.png" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-1" data-bs-slide-to="1" data-bs-target="#Carousel3">
+                                            <img src="img\pf\Force Control\forceloop.png" class="img-fluid">
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <!-- Description -->
+                            <div class="description">
+                                <p>During the development of an injection molding method with very low residence time, I encountered the following problem: a piston was supposed to push plastic at a precise force as it melted, but the servo that moved the piston could only control it’s own torque, not the actual force after considering losses in the transmission.</p>
+                                <p>After installing a pressure sensor at the piston, I developed the PI controller shown.</p>
+                                <p>The implementation was particularly tricky as the plastic being pushed was continuously melting and flowing into the mold cavities. This led to the piston having to stop and start multiple times per second, meaning that static and dynamic frictions had to be considered, as well as backlash and other problems.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Modal Item-->
+            <div id="Modal4" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">S1G Ultrasonic molding machine</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+
+                            <!-- Carousel -->
+                            <div id="Carousel4" class="carousel slide" data-bs-interval="false">
+
+                                <!-- Slides --> 
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img\pf\S1G\sonoruss1g-1.jpg" alt="First slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src="img\pf\S1G\processstatemachine.png" alt="Second slide">
+                                  </div>
+                                </div>
+
+                                <!-- Prev/Next buttons --> 
+                                <a class="carousel-control-prev" href="#Carousel4" role="button" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#Carousel4" role="button" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon"></span>
+                                </a>
+
+                                <!-- Thumbnail indicators --> 
+                                <ul class="carousel-indicators list-inline mx-auto border px-2">
+                                    <li class="list-inline-item active">
+                                        <a id="carousel-selector-0" data-bs-slide-to="0" data-bs-target="#Carousel4" class="selected">
+                                            <img src="img\pf\S1G\sonoruss1g-1.jpg" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-1" data-bs-slide-to="1" data-bs-target="#Carousel4">
+                                            <img src="img\pf\S1G\processstatemachine.png" class="img-fluid">
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <!-- Description -->
+                            <div class="description">
+                                <p>Ultrasound molding: The technology by which a plastic injection machine melts plastic pellets using ultrasounds instead of a heated barrel.</p>
+                                <p>My main task as lead PLC programmer in Ultrasion was to organize 7 years worth of code by many different programmers. Most it was patched as needed as the ultrasonic molding research progressed. This led to a very high technological debt: no documentation, many dependencies between supposedly encapsulated programs, unused and redundant code, obsolete functionality and a confusing user interface.</p>
+                                <p>At the time of my incorporation, there were no programmers left to tutor me. I proceeded to read and understand all the software and hardware, and carefully rewrote it over the span of a year. Some of the tasks I did were:</p>
+                                <ul>
+                                    <li>Created documentation.</li>
+                                    <li>Simplified many sequences (with the biggest having about 150 states).</li>
+                                    <li>Improved encapsulation.</li>
+                                    <li>Improved data sampling and exporting.</li>
+                                    <li>Simplified HMI for better user experience.</li>
+                                    <li>Designed hardware changes to improve safety and compatibility with an external robot arm.</li>
+                                    <li>Added many new functions as they were requested.</li>
+                                </ul>
+                                <p>Overall, I became proficient in PLC programming using B&R’s Automation Studio development environment.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
       
    
+
+            <!-- Modal Item-->
+            <div id="Modal5" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Website for Airsoft DIY projects</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+
+                            <!-- Carousel -->
+                            <div id="Carousel5" class="carousel slide" data-bs-interval="false">
+
+                                <!-- Slides --> 
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img\pf\AirsoftDIY\airsoftdiy_scrnsht.png" alt="First slide">
+                                  </div>
+                                </div>
+
+                                <!-- Prev/Next buttons --> 
+                                <a class="carousel-control-prev" href="#Carousel5" role="button" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#Carousel5" role="button" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon"></span>
+                                </a>
+
+                                <!-- Thumbnail indicators --> 
+                                <ul class="carousel-indicators list-inline mx-auto border px-2">
+                                    <li class="list-inline-item active">
+                                        <a id="carousel-selector-0" data-bs-slide-to="0" data-bs-target="#Carousel5" class="selected">
+                                            <img src="img\pf\AirsoftDIY\airsoftdiy_scrnsht.png" class="img-fluid">
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <!-- Description -->
+                            <div class="description">
+                                <p>Blog featuring many DIY projects for airsoft enthusiasts. While I no longer practice it, I still have many projects and knowledge to write a good amount of posts.</p>
+                                <p>Some of these projects are personal, and they are shown as a full tutorial. Others are random internet finds, and they are shown as articles with proper attribution.</p>
+                                <p>The website has been developed in WordPress, with slight modifications in the visual theme and many professional practices (SEO, analytics, proper backup, media organization…).</p>
+                                <p>It's located at <a href="https://airsoftdiy.com">airsoftDIY.com</a>.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- Modal Item-->
+            <div id="Modal6" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Capacitance meter</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+
+                            <!-- Carousel -->
+                            <div id="Carousel4" class="carousel slide" data-bs-interval="false">
+
+                                <!-- Slides --> 
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img\pf\Capacitance meter\Capacitance meter.jpg" alt="First slide">
+                                  </div>
+                                </div>
+
+                                <!-- Prev/Next buttons --> 
+                                <a class="carousel-control-prev" href="#Carousel6" role="button" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#Carousel6" role="button" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon"></span>
+                                </a>
+
+                                <!-- Thumbnail indicators --> 
+                                <ul class="carousel-indicators list-inline mx-auto border px-2">
+                                    <li class="list-inline-item active">
+                                        <a id="carousel-selector-0" data-bs-slide-to="0" data-bs-target="#Carousel6" class="selected">
+                                            <img src="img\pf\Capacitance meter\Capacitance meter.jpg" class="img-fluid">
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <!-- Description -->
+                            <div class="description">
+                                <p>Simple tool to calculate the capacity of unmarked capacitors. I needed it because I salvage many capacitors from old appliances.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- Modal Item-->
+            <div id="Modal7" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">S1G Ultrasonic molding machine</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+
+                            <!-- Carousel -->
+                            <div id="Carousel7" class="carousel slide" data-bs-interval="false">
+
+                                <!-- Slides --> 
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img\pf\Incorporation protocol\track.jpg" alt="First slide">
+                                  </div>
+                                </div>
+
+                                <!-- Prev/Next buttons --> 
+                                <a class="carousel-control-prev" href="#Carousel7" role="button" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#Carousel7" role="button" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon"></span>
+                                </a>
+
+                                <!-- Thumbnail indicators --> 
+                                <ul class="carousel-indicators list-inline mx-auto border px-2">
+                                    <li class="list-inline-item active">
+                                        <a id="carousel-selector-0" data-bs-slide-to="0" data-bs-target="#Carousel7" class="selected">
+                                            <img src="img\pf\Incorporation protocol\track.jpg" class="img-fluid">
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <!-- Description -->
+                            <div class="description">
+                                <p>A protocol which would allow an autonomous car to enter a highway without the need of a direct line of sight of incoming traffic.</p>
+                                <p>The car outside the highway first requests data about the position and speed of cars in the right lane. This data is provided either by a sensor network on the road or directly by the cars themselves. Then, the incorporating car calculates the probability of causing an accident and accelerates or slows down accordingly.</p>
+                                <p>This system is mostly intended for autonomous cars, but the relayed information could still be a useful cue for human drivers in low visibility conditions.</p>
+                                <p>This project was made during a hackathon by me and two other participants.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+
+
+
+
+            <!-- Modal Item-->
+            <div id="Modal8" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Semi-automated assembly line</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+
+                            <!-- Carousel -->
+                            <div id="Carousel8" class="carousel slide" data-bs-interval="false">
+
+                                <!-- Slides --> 
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img\pf\Claymore production line\production line.png" alt="First slide">
+                                  </div>
+                                </div>
+
+                                <!-- Prev/Next buttons --> 
+                                <a class="carousel-control-prev" href="#Carousel8" role="button" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#Carousel8" role="button" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon"></span>
+                                </a>
+
+                                <!-- Thumbnail indicators --> 
+                                <ul class="carousel-indicators list-inline mx-auto border px-2">
+                                    <li class="list-inline-item active">
+                                        <a id="carousel-selector-0" data-bs-slide-to="0" data-bs-target="#Carousel8" class="selected">
+                                            <img src="img\pf\Claymore production line\production line.png" class="img-fluid">
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <!-- Description -->
+                            <div class="description">
+                                <p>This project was developed as the final project for an MSc in Mechatronics. It includes:</p>
+                                <ul>
+                                    <li>Redesign of an existing product to conform to manufacturing standards.</li>
+                                    <li>3D design of the assembly line.</li>
+                                    <li>Control system of sensors & actuators using Schneider’s Unity Pro XL environment for PLC control with Ladder and GRAFCET.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     
     </body>

@@ -1,4 +1,7 @@
-filterSelection("all") // Execute the function and show all items
+// At start, show all items
+filterSelection("all")
+
+
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("pf-item");
