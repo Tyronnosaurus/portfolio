@@ -14,7 +14,9 @@ body {
 
 
 #portfolio {
+  width: 90%;
   margin: auto; /* Center */
+
 }
 
 /* PORTFOLIO HEADER */
@@ -79,7 +81,7 @@ h2 {
 }
 
 .pf-item {
-  width: 250px;
+  width: 200px;
   margin: 5px;
   
   border: 1px solid #ccc;
@@ -117,7 +119,7 @@ h2 {
   width: 100%;
   padding: 5px 10px 5px 10px;
   margin: 0px;
-  font-size: 20px;
+  font-size: 17px;
   border-top: 1px solid #ccc;
 
   /* Center text vertically */
