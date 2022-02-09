@@ -138,32 +138,48 @@ h2 {
 }
 
 
-
+/************/
 /* CAROUSEL */
+/************/
 .carousel{
   background-color: black;
 }
 
+/* Slides */
 .carousel-item img{
   width: 500px;
   height: 400px;
   object-fit: contain;
 }
 
+/* Thumbnails bar */
 .carousel-indicators {
   margin-bottom: 0px;
 }
 
+/* Tumbnails */
 .carousel-indicators img {
   width: 50px !important;
   height: 50px !important;
-  border: 0px !important;
+  border: 1px solid grey !important;
+  margin: 0px !important;
   object-fit: cover;
 }
 
+/* White margin on thumbnails if user hovers over them */
+.carousel-indicators img:hover {
+  border: 1px solid white !important;
+}
+
+/* White margin on active thumbnail */
+.carousel-indicators .active {
+  border: 1px solid white !important;
+}
 
 
-
+/***************/
+/* DESCRIPTION */
+/***************/
 .modal-body .description {
   padding: 15px 15% 0px 5%;
 }
