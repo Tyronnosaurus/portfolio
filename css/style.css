@@ -172,7 +172,7 @@ h2 {
 }
 
 /* White margin on active thumbnail */
-.carousel-indicators .active {
+.carousel-indicators img.selected {
   border: 1px solid white !important;
 }
 
