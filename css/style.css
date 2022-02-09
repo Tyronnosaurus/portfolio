@@ -171,15 +171,10 @@ h2 {
   border: 1px solid white !important;
 }
 
-/* White margin on active thumbnail */
-.carousel-indicators img.selected {
-  border: 1px solid white !important;
-}
-
 
 /***************/
 /* DESCRIPTION */
 /***************/
 .modal-body .description {
-  padding: 15px 15% 0px 5%;
+  padding: 15px 10% 0px 10%;
 }
