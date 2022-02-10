@@ -2,6 +2,7 @@
 filterSelection("all")
 
 
+// Show/hide portfolio items using the "show" class
 function filterSelection(c) {
   if (c == "all") c = "";
 
@@ -15,10 +16,10 @@ function filterSelection(c) {
 
 
 // Show filtered elements
-function w3AddClass(element, name) {
+function w3AddClass(element, clName) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
+  arr2 = clName.split(" ");
   for (i = 0; i < arr2.length; i++) {
     if (arr1.indexOf(arr2[i]) == -1) {
       element.className += " " + arr2[i];
@@ -44,10 +45,17 @@ function w3RemoveClass(element, name) {
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("btnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
+
 for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
+  
+  btns[i].addEventListener(
+    "click",
+    function(){
+      var btnContainer = document.getElementById("btnContainer");
+      var current = btnContainer.getElementsByClassName("active");        // Find the button with the "active" class (there should only be one).
+      current[0].className = current[0].className.replace(" active", ""); // Remove its "active" class
+      this.className += " active";                                        // Add "active" class to the one we just clicked.
+    }
+  );
+
 }
