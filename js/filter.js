@@ -3,15 +3,16 @@ filterSelection("all")
 
 
 function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("pf-item");
   if (c == "all") c = "";
-  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+
+  var items = document.getElementsByClassName("pf-item"); // Get all portfolio items 
+
+  for (var i=0; i<items.length; i++) {
+    w3RemoveClass(items[i], "show");                                        // Remove 'show' class
+    if (items[i].className.indexOf(c) > -1) w3AddClass(items[i], "show");   // Reappend it only if it has the tag we want
   }
 }
+
 
 // Show filtered elements
 function w3AddClass(element, name) {
@@ -25,6 +26,7 @@ function w3AddClass(element, name) {
   }
 }
 
+
 // Hide elements that are not selected
 function w3RemoveClass(element, name) {
   var i, arr1, arr2;
@@ -37,6 +39,7 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
+
 
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("btnContainer");
