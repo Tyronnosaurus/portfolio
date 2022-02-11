@@ -8,7 +8,7 @@ for (var i=0; i<btns.length; i++) {
     function(){
       t = this.textContent;
       if (t=='Show all') t = '';
-      w3.filterHTML('#pf-grid', 'li', t);
+      w3.filterHTML('#pf-grid', '.pf-item', t);
     }
   );
 }
