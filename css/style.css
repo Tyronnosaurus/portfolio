@@ -88,13 +88,9 @@ h2 {
   cursor: pointer;  /* Change cursor to indicate that it's clickable */
 }
 
-/* FILTER PORTFOLIO ITEMS */
-#pf-grid .pf-item {
-  display: none; /* Hide items by default */
-}
 
-#pf-grid .show {
-  display: block; /* The "show" class is added to the filtered elements */
+#pf-grid {
+  list-style: none; /* Don't show bullet point on list items */
 }
 
 
@@ -127,8 +123,12 @@ h2 {
   align-items: center;
 
   /*Center text horizontally */
-  text-align:center;
+  text-align: center;
   justify-content: center;
+}
+
+.pf-item .tags {
+  display: none;
 }
 
 
