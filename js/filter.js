@@ -1,17 +1,19 @@
 var btnContainer = document.getElementById("btnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 
-// Filter according to clicked button
+
+// Add event listener to each button so that it enables/disables a filter when pressed
 for (var i=0; i<btns.length; i++) {
   btns[i].addEventListener(
     "click",
     function(){
       t = this.textContent;
-      if (t=='Show all') t = '';
+      if (t=='Show all') t = '';  // The 'Show all' button deletes the filter
       w3.filterHTML('#pf-grid', '.pf-item', t);
     }
   );
 }
+
 
 // Add active class to the clicked button (highlight it)
 for (var i=0; i<btns.length; i++) {
