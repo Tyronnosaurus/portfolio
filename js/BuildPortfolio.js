@@ -147,7 +147,7 @@ data = [
         images: ["img/pf/ZoomSingleItem/2.png", "img/pf/ZoomSingleItem/3.jpg", "img/pf/ZoomSingleItem/4.png"],
         tags: ['Hobby', 'WebDev', 'Javascript'],
         description:`<p>Firefox add-on, based on WebExtensions. It lets the user permanently resize a single element in a website (including all pages in the same domain).</p>        
-        <p>This could be useful for accessibility, or simply for when a very repetitive task is cumbersome due to constantly having to click very small items on a website..</p>`
+        <p>This could be useful for accessibility, or simply for when a very repetitive task is cumbersome due to constantly having to click very small items on a website.</p>`
     },
 
     {
