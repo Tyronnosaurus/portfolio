@@ -143,11 +143,18 @@ data = [
     },
 
     {
+        title: "Firefox extension: Zoom single item",
+        images: ["img/ZoomSingleItem/2.png", "img/ZoomSingleItem/3.jpg", "img/ZoomSingleItem/4.png"],
+        tags: ['Hobby', 'WebDev', 'Javascript'],
+        description:`<p>Firefox add-on, based on WebExtensions. It lets the user permanently resize a single element in a website (including all pages in the same domain).</p>        
+        <p>This could be useful for accessibility, or simply for when a very repetitive task is cumbersome due to constantly having to click very small items on a website..</p>`
+    },
+
+    {
         title: "Injection machine data postprocessor",
         images: ["img/pf/CSV postprocessor/0.jpg"],
         tags: ['Professional', 'C#'],
-        description:`<p>A client contacted us about a bug: an old machine from our company was exporting large amounts of process data in the wrong format. I developed this small application to postprocess the data into a format they could work with.</p>
-        `
+        description:`<p>A client contacted us about a bug: an old machine from our company was exporting large amounts of process data in the wrong format. I developed this small application to postprocess the data into a format they could work with.</p>`
     },
 
     {
