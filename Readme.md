@@ -1,1 +1,1 @@
-## [Click here to see the portfolio](tyronnosaurus.github.io/portfolio)
+## [Click here to see the portfolio](https://tyronnosaurus.github.io/portfolio)
