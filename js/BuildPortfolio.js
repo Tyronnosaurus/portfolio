@@ -151,6 +151,13 @@ data = [
     },
 
     {
+        title: "Task tracker made in React",
+        images: ["img/pf/ReactTaskTracker/1.jpg", "img/pf/ReactTaskTracker/2.jpg"],
+        tags: ['Hobby', 'WebDev', 'React', 'Javascript'],
+        description:`<p>Small application to schedule tasks. Made to learn about React, various React hooks, and React Router. Based on a tutorial by Traversy Media.</p>`
+    },
+
+    {
         title: "Injection machine data postprocessor",
         images: ["img/pf/CSV postprocessor/0.jpg"],
         tags: ['Professional', 'C#'],
