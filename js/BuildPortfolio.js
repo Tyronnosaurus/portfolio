@@ -52,8 +52,9 @@ data = [
         title: "Ultrasion's website",
         images: ["img/pf/Ultrasion website/0.png", "img/pf/Ultrasion website/1.png", "img/pf/Ultrasion website/2.png"],
         tags: ['Professional', 'WebDev', 'Wordpress'],
-        description:`<p>The company I was working on, Ultrasion, had an obsolete website. I remade it from scratch using Wordpress.</p>
-        <p>Site available at <a href="http://ultrasion.eu">ultrasion.eu</a>.</p>`
+        description:`<p>The company I was working on, Ultrasion, had a relatively old website. I remade it from scratch using Wordpress.</p>
+        <p>Site available at the following link:</p>`,
+        link: "https://ultrasion.eu"
     },
 
     {
@@ -131,7 +132,8 @@ data = [
         images: ["img/pf/ComicResizer/0.png"],
         tags: ['Hobby', 'Python'],
         description:`<p>Utility to batch resize all pages of a comic, with automatic detection of double pages and other size related anomalies.</p>
-        <p>If smart resizing is enabled, pages which are considerably larger or smaller than the majority will not be resized to the user specified size, but rather to a proportional size based on its original ratio to the other pages.</p>`
+        <p>If smart resizing is enabled, pages which are considerably larger or smaller than the majority will not be resized to the user specified size, but rather to a proportional size based on its original ratio to the other pages.</p>`,
+        link: "https://github.com/Tyronnosaurus/ComicResizer"
     },
 
     {
@@ -139,7 +141,8 @@ data = [
         images: ["img/None.png"],
         tags: ['Hobby', 'WebDev', 'Javascript'],
         description:`<p>Firefox add-on, based on WebExtensions. It lets the user manually tag a website as 'Seen', 'Want', 'Reached', 'ToDo'... Links to that website will then be accompanied by the correpsonding icon.</p>
-        <p>I made this mostly for self use, since I often find myself reading things I had already read years ago. The browsing history is useful but it eventually cleans old items (or else it would be gigantic). This extension serves me as a more permanent alternative.`
+        <p>I made this mostly for self use, since I often find myself reading things I had already read years ago. The browsing history is useful but it eventually cleans old items (or else it would be gigantic). This extension serves me as a more permanent alternative.`,
+        link: "https://github.com/Tyronnosaurus/site-tags"
     },
 
     {
@@ -147,14 +150,16 @@ data = [
         images: ["img/pf/ZoomSingleItem/2.png", "img/pf/ZoomSingleItem/3.jpg", "img/pf/ZoomSingleItem/4.png"],
         tags: ['Hobby', 'WebDev', 'Javascript'],
         description:`<p>Firefox add-on, based on WebExtensions. It lets the user permanently resize a single element in a website (including all pages in the same domain).</p>        
-        <p>This could be useful for accessibility, or simply for when a very repetitive task is cumbersome due to constantly having to click very small items on a website.</p>`
+        <p>This could be useful for accessibility, or simply for when a very repetitive task is cumbersome due to constantly having to click very small items on a website.</p>`,
+        link: "https://github.com/Tyronnosaurus/zoom-single-item"
     },
 
     {
         title: "Task tracker made in React",
         images: ["img/pf/ReactTaskTracker/1.jpg", "img/pf/ReactTaskTracker/2.jpg"],
         tags: ['Hobby', 'WebDev', 'React', 'Javascript'],
-        description:`<p>Small application to schedule tasks. Made to learn about React, various React hooks, and React Router. Based on a tutorial by Traversy Media.</p>`
+        description:`<p>Small application to schedule tasks. Made to learn about React, various React hooks, and React Router. Based on a tutorial by Traversy Media.</p>`,
+        link: "https://github.com/Tyronnosaurus/react-task-tracker"
     },
 
     {
@@ -208,8 +213,8 @@ data = [
         tags: ['Hobby', 'WebDev', 'Wordpress'],
         description:`<p>Blog featuring many DIY projects for airsoft enthusiasts. While I no longer practice it, I still have many projects and knowledge to write a good amount of posts.</p>
         <p>Some of these projects are personal, and they are shown as a full tutorial. Others are random internet finds, and they are shown as articles with proper attribution.</p>
-        <p>The website has been developed in WordPress, with slight modifications in the visual theme and many professional practices (SEO, analytics, proper backup, media organization…).</p>
-        <p>It's located at <a href="https://airsoftdiy.com">airsoftDIY.com</a>.</p>`
+        <p>The website has been developed in WordPress, with slight modifications in the visual theme and many professional practices (SEO, analytics, proper backup, media organization…).</p>`,
+        link: "https://airsoftdiy.com"
     },
 
     {
@@ -221,7 +226,8 @@ data = [
         description:`<p>Spring-loaded airsoft trap with autonomous movement detection and remote control. In an Airsoft match, when a member of the opposite team walks in front of the trap, the front panel opens and dozens of plastic balls are shot forwards, at which point he is eliminated from the game.<p>
         <p>It consists of a box with a double mouse trap mechanism. The entire body is 3D printed except for wood bars which give it structural integrity against the strong springs.</p>
         <p>The device is 100% functional and was used successfully in real matches.</p>
-        <p>The electronic board and its features are described in another project.</p>`
+        <p>The electronic board and its features are described in another project.</p>`,
+        link: "https://github.com/Tyronnosaurus/diy-airsoft-claymore"
     },
 
     {
@@ -239,7 +245,8 @@ data = [
             <li>SPI programmer connector.</li>
         </ul>
         <p>It was developed to improve my design skills and practice with Altium Designer.</p>
-        <p>The device is 100% functional and was used successfully in real matches.</p>`
+        <p>The device is 100% functional and was used successfully in real matches.</p>`,
+        link: "https://github.com/Tyronnosaurus/diy-airsoft-claymore"
     },
 
     {
@@ -384,7 +391,8 @@ data = [
         tags: ['Academic', 'GameDev'],
         description:`<p>Tile-based action game using Flash.</p>
         <p>It was developed in a programming class by me and another student, and earned a 9/10 qualification.</p>
-        <p>You can watch a trailer <a href="https://www.youtube.com/watch?v=L3Q6C7F_F30">here</a>.</p>`
+        <p>You can watch the trailer I made on the following link:</p>`,
+        link: "https://www.youtube.com/watch?v=L3Q6C7F_F30"
     },
 
     {
@@ -400,7 +408,8 @@ data = [
         images: ["img/pf/Portfolio/0.jpg", "img/pf/Portfolio/1.jpg"],
         tags: ['Hobby', 'WebDev', 'HTML', 'CSS', 'Javascript', 'Bootstrap'],
         description:`<p>A website where I showcase my projects. It allows filtering by tags, and shows a popup with more info whenever an entry is clicked.</p>
-        <p>Done with HTML, CSS, a bit of Javascript, and some Bootstrap features such as Modal and Carousel.</p>`
+        <p>Done with HTML, CSS, a bit of Javascript, and some Bootstrap features such as Modal and Carousel.</p>`,
+        link: "https://github.com/Tyronnosaurus/portfolio"
     },
     
     {
@@ -436,7 +445,7 @@ function buildPortfolio(){
 }
 
 
-
+// Builds the card that appears in the grid of cards
 function buildPortfolioCard(i){
     
     var itemData = data[i];
@@ -474,7 +483,7 @@ function buildPortfolioCard(i){
 
 
 
-
+// Replace the contents of the modal with those of the selected portfolio item
 function fillPortfolioModal(i){
 
     var itemData = data[i];
@@ -525,6 +534,26 @@ function fillPortfolioModal(i){
     // Description
     var modalDescription = modal.getElementsByClassName('description')[0];
     modalDescription.innerHTML = itemData.description;
+
+    // Link
+    var modalLinkDiv = modal.getElementsByClassName('linkdiv')[0];
+    removeAllChildNodes(modalLinkDiv);  // Remove previously created link
+
+    if (itemData.link){ // If the portfolio item has a link, create an <a> element and append it inside the link div
+        var link = document.createElement("a");
+        link.classList.add("link");
+        link.setAttribute("href", itemData.link);
+        link.setAttribute("target", "_blank");  // So that it opens in a new tab
+        link.innerHTML = "See more";
+
+        modalLinkDiv.appendChild(link);
+    }
+
+    // Tags
+    if (itemData.tags){
+        var modalTags = modal.getElementsByClassName('tags')[0];
+        modalTags.innerHTML = "Tags: " + itemData.tags.join(', ');
+    }
 
 }
 

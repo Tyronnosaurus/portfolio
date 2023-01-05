@@ -175,9 +175,39 @@ h2 {
 }
 
 
-/***************/
-/* DESCRIPTION */
-/***************/
+/*************************/
+/* MODAL CONTENTS (TEXT) */
+/*************************/
 .modal-body .description {
   padding: 15px 10% 0px 10%;
+}
+
+.modal-body .tags {
+  padding: 15px 10% 0px 10%;
+}
+
+/* LINK */
+.modal-body .linkdiv{
+  text-align: center;
+}
+
+.modal-body .link {
+  background-color: white;
+  
+  margin: 3px;
+  padding: 10px 20px;
+
+  border-width: thin;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+
+  font-size: 16px;
+
+  transition: all 0.25s linear;
+}
+
+/* Add a grey background color on mouse-over */
+.modal-body .link:hover {
+  background-color: #ddd;
 }
