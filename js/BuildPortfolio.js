@@ -129,7 +129,7 @@ data = [
 
     {
         title: "React Dashboard",
-        images: ["img/pf/ReactDashboard/1.PNG", "img/pf/ReactDashboard/2.PNG", "img/pf/ReactDashboard/3.PNG", "img/pf/ReactDashboard/4.PNG", "img/pf/ReactDashboard/5.PNG", "img/pf/ReactDashboard/6.PNG"],
+        images: ["img/pf/ReactDashboard/1.png", "img/pf/ReactDashboard/2.png", "img/pf/ReactDashboard/3.png", "img/pf/ReactDashboard/4.png", "img/pf/ReactDashboard/5.png", "img/pf/ReactDashboard/6.png"],
         tags: ['Hobby', 'WebDev', 'React', 'HTML', 'CSS', 'Javascript'],
         description:`<p>A simple static dashboard with day/night mode, pages with many different menus and graphics, and a main page with a summary of the pages.</p>
                      <p>Based on <a href="https://www.youtube.com/watch?v=wYpCWwD1oz0">this tutorial</a>.</p>`,
